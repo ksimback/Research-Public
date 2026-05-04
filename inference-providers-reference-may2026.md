@@ -1,4 +1,4 @@
-# Low-Cost LLM Inference Providers — 2026 Reference
+# The Complete Consumer LLM Inference Provider Reference — May 2026
 
 A working reference of LLM inference providers organized by business model. Companion to ["The Consumer Inference Stack: 26 LLM Providers Worth Knowing"](#) — this doc goes deeper, covers more providers, and explains *why* you'd pick each one.
 
