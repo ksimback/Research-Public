@@ -1,0 +1,3 @@
+match_id,hand_id,hand_number,started_at,ended_at,button_agent,winner,win_type,pot_final_micros,action_count,auto_action_count,max_decision_latency_ms,avg_decision_latency_ms,hermes_action_count,openclaw_action_count,error_count,hermes_settlement_delta_micros,openclaw_settlement_delta_micros
+01KRH9GKP31H3GD5YY3P1BG31X,01KRH9GN4BX5A4SJ71MEQ3Q1DB,1,2026-05-13T18:27:49.003176+00:00,2026-05-13T18:27:50.515810+00:00,openclaw,hermes,fold,100000,1,0,1118,1118.0,0,1,0,50000,-50000
+01KRH9GKP31H3GD5YY3P1BG31X,01KRH9GS72H1V16HSKBKPXPSNB,2,2026-05-13T18:27:53.186405+00:00,2026-05-13T18:28:10.407428+00:00,hermes,openclaw,showdown,9900000,7,0,3620,2373.4285714285716,3,4,0,-4950000,4950000

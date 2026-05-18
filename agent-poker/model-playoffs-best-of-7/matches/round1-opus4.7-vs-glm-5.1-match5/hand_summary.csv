@@ -1,0 +1,2 @@
+match_id,hand_id,hand_number,started_at,ended_at,button_agent,winner,win_type,pot_final_micros,action_count,auto_action_count,max_decision_latency_ms,avg_decision_latency_ms,hermes_action_count,openclaw_action_count,error_count,hermes_settlement_delta_micros,openclaw_settlement_delta_micros
+01KRCAAGZCEM5YY555N270GW4Z,01KRCAAJMR5RYQFE0Z6K5JBC2X,1,2026-05-11T20:05:46.264759+00:00,2026-05-11T20:06:11.597069+00:00,openclaw,hermes,showdown,10000000,7,0,12344,3528.8571428571427,4,3,0,5000000,-5000000

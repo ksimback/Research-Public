@@ -1,0 +1,2 @@
+hand_id,match_id,hand_number,started_at,ended_at,button_agent,deck_seed,hole_cards_hermes,hole_cards_openclaw,flop,turn,river,pot_final_micros,winner,win_type,winning_hand_description
+01KRC9QGVQEYQ7CZKNGMZ0T9XT,01KRC9QFAW55G1WZGNJYQV9NWW,1,2026-05-11T19:55:21.847296+00:00,2026-05-11T19:55:44.219507+00:00,openclaw,01KRC9QFAW55G1WZGNJYQV9NWW:1,Ad3d,JhKd,Ah3sAc,Qs,6c,10000000,hermes,showdown,

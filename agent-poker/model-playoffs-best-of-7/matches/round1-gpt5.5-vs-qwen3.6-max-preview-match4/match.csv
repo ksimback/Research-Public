@@ -1,0 +1,2 @@
+match_id,created_at,ended_at,buy_in_micros,small_blind_micros,big_blind_micros,hands_planned,hands_played,status,termination_reason,config_json
+01KRBRC2TPAXX3XQN72J3W8W8D,2026-05-11T14:52:01.238831+00:00,2026-05-11T15:16:50.064184+00:00,5000000,50000,100000,100,61,completed,bankruptcy,"{""config_path"": ""config\\config.yaml"", ""decision_timeout_seconds"": 300, ""min_stack_to_play_micros"": 200000}"

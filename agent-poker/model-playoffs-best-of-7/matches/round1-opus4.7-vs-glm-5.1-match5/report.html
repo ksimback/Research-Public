@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Agent Poker Match Report 01KRCAAGZCEM5YY555N270GW4Z</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f1e8;
+        --panel: #fffdf8;
+        --ink: #1f1d1a;
+        --muted: #6c6258;
+        --accent: #0f766e;
+        --border: #d8cfc2;
+      }
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background: linear-gradient(180deg, #efe4d2 0%, var(--bg) 30%, #f8f4ed 100%);
+        color: var(--ink);
+      }
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 32px 20px 64px;
+      }
+      .hero {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 12px 40px rgba(49, 39, 24, 0.08);
+      }
+      .eyebrow {
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--accent);
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+      h1, h2 {
+        margin: 0 0 12px;
+      }
+      .grid {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        margin-top: 24px;
+      }
+      .card {
+        background: rgba(255, 255, 255, 0.72);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 16px;
+      }
+      .label {
+        color: var(--muted);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+      .value {
+        font-size: 22px;
+        margin-top: 8px;
+      }
+      section {
+        margin-top: 28px;
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 10px 8px;
+        border-bottom: 1px solid var(--border);
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        color: var(--muted);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+      @media (max-width: 720px) {
+        main {
+          padding: 20px 14px 40px;
+        }
+        .hero, section {
+          padding: 16px;
+          border-radius: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="hero">
+        <div class="eyebrow">Agent Poker Report</div>
+        <h1>Match 01KRCAAGZCEM5YY555N270GW4Z</h1>
+        <p>Status: <strong>completed</strong></p>
+        <div class="grid">
+          <div class="card">
+            <div class="label">Termination</div>
+            <div class="value">bankruptcy</div>
+          </div>
+          <div class="card">
+            <div class="label">Hands Played</div>
+            <div class="value">1 / 100</div>
+          </div>
+          <div class="card">
+            <div class="label">Buy-in</div>
+            <div class="value">$5.000000</div>
+          </div>
+          <div class="card">
+            <div class="label">Blinds</div>
+            <div class="value">
+              $0.050000 / $0.100000
+            </div>
+          </div>
+          <div class="card">
+            <div class="label">Errors Logged</div>
+            <div class="value">0</div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <h2>Agents</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Agent</th>
+              <th>Initial Limit</th>
+              <th>Final Limit</th>
+              <th>Final Remaining</th>
+              <th>Final Usage</th>
+              <th>Net Settlement</th>
+              <th>Auto Actions</th>
+              <th>Errors</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+          <td>hermes</td>
+          <td>$5.000000</td>
+          <td>$10.000000</td>
+          <td>$9.990215</td>
+          <td>$0.009785</td>
+          <td>$5.000000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+<tr>
+          <td>openclaw</td>
+          <td>$5.000000</td>
+          <td>$0.000000</td>
+          <td>$0.000000</td>
+          <td>$0.001153</td>
+          <td>$-5.000000</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Hands</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Hand</th>
+              <th>Winner</th>
+              <th>Win Type</th>
+              <th>Pot</th>
+              <th>Actions</th>
+              <th>Winning Delta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+          <td>1</td>
+          <td>hermes</td>
+          <td>showdown</td>
+          <td>$10.000000</td>
+          <td>7</td>
+          <td>$5.000000</td>
+        </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Match Config</h2>
+        <ul>
+          <li><strong>config_path</strong>: config\config.yaml</li>
+<li><strong>decision_timeout_seconds</strong>: 300</li>
+<li><strong>min_stack_to_play_micros</strong>: 200000</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

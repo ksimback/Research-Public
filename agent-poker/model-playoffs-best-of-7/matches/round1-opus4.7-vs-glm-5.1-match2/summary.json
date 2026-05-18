@@ -1,0 +1,41 @@
+{
+  "agents": [
+    {
+      "agent_name": "hermes",
+      "final_limit_micros": 4245961,
+      "final_limit_remaining_micros": 4167532,
+      "final_usage_micros": 78429,
+      "initial_limit_micros": 5000000,
+      "match_id": "01KRC894R7SVDC4PP72FEFYEMQ"
+    },
+    {
+      "agent_name": "openclaw",
+      "final_limit_micros": 5754039,
+      "final_limit_remaining_micros": 5287039,
+      "final_usage_micros": 467000,
+      "initial_limit_micros": 5000000,
+      "match_id": "01KRC894R7SVDC4PP72FEFYEMQ"
+    }
+  ],
+  "avg_decision_latency_ms": 3693.0220820189274,
+  "clean": true,
+  "confirmed_settlement_count": 200,
+  "match": {
+    "big_blind_micros": 100000,
+    "buy_in_micros": 5000000,
+    "config_json": "[redacted local config path]",
+    "created_at": "2026-05-11T19:30:02.119987+00:00",
+    "ended_at": "2026-05-11T19:55:10.996307+00:00",
+    "hands_planned": 100,
+    "hands_played": 100,
+    "match_id": "01KRC894R7SVDC4PP72FEFYEMQ",
+    "small_blind_micros": 50000,
+    "status": "completed",
+    "termination_reason": "hands_complete"
+  },
+  "max_decision_latency_ms": 27987,
+  "total_action_count": 317,
+  "total_auto_action_count": 0,
+  "total_error_count": 0,
+  "total_settlement_count": 200
+}

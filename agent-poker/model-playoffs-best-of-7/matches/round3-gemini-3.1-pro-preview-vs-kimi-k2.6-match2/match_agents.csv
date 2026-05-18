@@ -1,0 +1,3 @@
+match_id,agent_name,initial_limit_micros,final_limit_micros,final_usage_micros,final_limit_remaining_micros
+01KRHBZMWMJPFG0GNTB0G09MVV,hermes,5000000,9858884,20928,9837956
+01KRHBZMWMJPFG0GNTB0G09MVV,openclaw,5000000,141116,149536,0

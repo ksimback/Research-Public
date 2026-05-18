@@ -1,0 +1,165 @@
+{
+  "champion": "Kimi K2.6",
+  "champion_seed": 6,
+  "completed_at": "2026-05-13T20:06:47.955552+00:00",
+  "description": "Sanitized public dataset for the counted clean matches in the eight-model Agent Poker tournament.",
+  "format": "8-model NBA-style playoff bracket; each series is best of 7.",
+  "match_folder_count": 40,
+  "match_folders": [
+    "round1-gpt5.5-vs-qwen3.6-max-preview-match1",
+    "round1-gpt5.5-vs-qwen3.6-max-preview-match2",
+    "round1-gpt5.5-vs-qwen3.6-max-preview-match3",
+    "round1-gpt5.5-vs-qwen3.6-max-preview-match4",
+    "round1-gemini-3.1-pro-preview-vs-deepseek-v4-pro-match1",
+    "round1-gemini-3.1-pro-preview-vs-deepseek-v4-pro-match2",
+    "round1-gemini-3.1-pro-preview-vs-deepseek-v4-pro-match3",
+    "round1-gemini-3.1-pro-preview-vs-deepseek-v4-pro-match4",
+    "round1-gemini-3.1-pro-preview-vs-deepseek-v4-pro-match5",
+    "round1-gemini-3.1-pro-preview-vs-deepseek-v4-pro-match6",
+    "round1-grok4.3-vs-kimi-k2.6-match1",
+    "round1-grok4.3-vs-kimi-k2.6-match2",
+    "round1-grok4.3-vs-kimi-k2.6-match3",
+    "round1-grok4.3-vs-kimi-k2.6-match4",
+    "round1-grok4.3-vs-kimi-k2.6-match5",
+    "round1-grok4.3-vs-kimi-k2.6-match6",
+    "round1-grok4.3-vs-kimi-k2.6-match7",
+    "round1-opus4.7-vs-glm-5.1-match1",
+    "round1-opus4.7-vs-glm-5.1-match2",
+    "round1-opus4.7-vs-glm-5.1-match3",
+    "round1-opus4.7-vs-glm-5.1-match4",
+    "round1-opus4.7-vs-glm-5.1-match5",
+    "round2-gpt5.5-vs-gemini-3.1-pro-preview-match1",
+    "round2-gpt5.5-vs-gemini-3.1-pro-preview-match2",
+    "round2-gpt5.5-vs-gemini-3.1-pro-preview-match3",
+    "round2-gpt5.5-vs-gemini-3.1-pro-preview-match4",
+    "round2-gpt5.5-vs-gemini-3.1-pro-preview-match5",
+    "round2-gpt5.5-vs-gemini-3.1-pro-preview-match6",
+    "round2-opus4.7-vs-kimi-k2.6-match1",
+    "round2-opus4.7-vs-kimi-k2.6-match2",
+    "round2-opus4.7-vs-kimi-k2.6-match3",
+    "round2-opus4.7-vs-kimi-k2.6-match4",
+    "round2-opus4.7-vs-kimi-k2.6-match5",
+    "round2-opus4.7-vs-kimi-k2.6-match6",
+    "round3-gemini-3.1-pro-preview-vs-kimi-k2.6-match1",
+    "round3-gemini-3.1-pro-preview-vs-kimi-k2.6-match2",
+    "round3-gemini-3.1-pro-preview-vs-kimi-k2.6-match3",
+    "round3-gemini-3.1-pro-preview-vs-kimi-k2.6-match4",
+    "round3-gemini-3.1-pro-preview-vs-kimi-k2.6-match5",
+    "round3-gemini-3.1-pro-preview-vs-kimi-k2.6-match6"
+  ],
+  "redactions": [
+    "Raw SQLite databases are excluded.",
+    "Run logs are excluded.",
+    "OpenRouter key hashes and generated key names are removed.",
+    "Local endpoint URLs and local config paths are removed.",
+    "Settlement OpenRouter response blobs are omitted from settlements.csv because they duplicate key metadata."
+  ],
+  "series": [
+    {
+      "games": 4,
+      "higher_model": "GPT-5.5",
+      "higher_seed": 1,
+      "lower_model": "Qwen3.6 Max Preview",
+      "lower_seed": 8,
+      "round": "quarterfinal",
+      "score_by_seed": {
+        "1": 4,
+        "8": 0
+      },
+      "series_id": "qf_a",
+      "winner_model": "GPT-5.5",
+      "winner_seed": 1
+    },
+    {
+      "games": 6,
+      "higher_model": "Gemini 3.1 Pro Preview",
+      "higher_seed": 4,
+      "lower_model": "DeepSeek V4 Pro",
+      "lower_seed": 5,
+      "round": "quarterfinal",
+      "score_by_seed": {
+        "4": 4,
+        "5": 2
+      },
+      "series_id": "qf_b",
+      "winner_model": "Gemini 3.1 Pro Preview",
+      "winner_seed": 4
+    },
+    {
+      "games": 7,
+      "higher_model": "Grok 4.3",
+      "higher_seed": 3,
+      "lower_model": "Kimi K2.6",
+      "lower_seed": 6,
+      "round": "quarterfinal",
+      "score_by_seed": {
+        "3": 3,
+        "6": 4
+      },
+      "series_id": "qf_c",
+      "winner_model": "Kimi K2.6",
+      "winner_seed": 6
+    },
+    {
+      "games": 5,
+      "higher_model": "Opus 4.7",
+      "higher_seed": 2,
+      "lower_model": "GLM-5.1",
+      "lower_seed": 7,
+      "round": "quarterfinal",
+      "score_by_seed": {
+        "2": 4,
+        "7": 1
+      },
+      "series_id": "qf_d",
+      "winner_model": "Opus 4.7",
+      "winner_seed": 2
+    },
+    {
+      "games": 6,
+      "higher_model": "GPT-5.5",
+      "higher_seed": 1,
+      "lower_model": "Gemini 3.1 Pro Preview",
+      "lower_seed": 4,
+      "round": "semifinal",
+      "score_by_seed": {
+        "1": 2,
+        "4": 4
+      },
+      "series_id": "sf_a",
+      "winner_model": "Gemini 3.1 Pro Preview",
+      "winner_seed": 4
+    },
+    {
+      "games": 6,
+      "higher_model": "Opus 4.7",
+      "higher_seed": 2,
+      "lower_model": "Kimi K2.6",
+      "lower_seed": 6,
+      "round": "semifinal",
+      "score_by_seed": {
+        "2": 2,
+        "6": 4
+      },
+      "series_id": "sf_b",
+      "winner_model": "Kimi K2.6",
+      "winner_seed": 6
+    },
+    {
+      "games": 6,
+      "higher_model": "Gemini 3.1 Pro Preview",
+      "higher_seed": 4,
+      "lower_model": "Kimi K2.6",
+      "lower_seed": 6,
+      "round": "final",
+      "score_by_seed": {
+        "4": 2,
+        "6": 4
+      },
+      "series_id": "finals",
+      "winner_model": "Kimi K2.6",
+      "winner_seed": 6
+    }
+  ],
+  "title": "Agent Poker Model Playoffs - Best of 7"
+}

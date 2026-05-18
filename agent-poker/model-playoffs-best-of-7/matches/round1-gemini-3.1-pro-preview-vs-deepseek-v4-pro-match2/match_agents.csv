@@ -1,0 +1,3 @@
+match_id,agent_name,initial_limit_micros,final_limit_micros,final_usage_micros,final_limit_remaining_micros
+01KRBV91YZKT54Q4JEXYEKN33B,hermes,5000000,9650000,38629,9611371
+01KRBV91YZKT54Q4JEXYEKN33B,openclaw,5000000,350000,166186,183814
