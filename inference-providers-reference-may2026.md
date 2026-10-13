@@ -339,6 +339,16 @@ Heavy use of expensive models drains the bucket fast. Same flat-rate framing as 
 - **What makes them interesting:** **The Tool Gateway is the unique pitch.** Most credit-limited aggregators just bundle models. Nous bundles models *plus* the agent tools you'd otherwise integrate separately — Firecrawl alone runs $20/mo on its own subscription, so the Plus tier essentially gives you frontier-model credits for free if you'd be paying for Firecrawl anyway. Hermes Agent is a different product than the chat UI most aggregators ship — it's a server-resident agent meant to run continuously, not an ephemeral chat interface. Ideal for builders who want frontier API access *and* the agent infrastructure layer in one bill.
 - **Best for:** Builders running persistent agents (Hermes Agent or custom), Nous Hermes / Nomos model fans, anyone who'd otherwise be cobbling together Firecrawl + FAL + TTS subscriptions separately.
 
+### Standard Compute
+- **Pricing:** Starter $19, Economy $39, Standard $89, Pro $249/mo (individual); business plans from $499/mo
+- **Allowance:** A fixed monthly compute budget in USD ($20 / $41 / $95 / $269 on the individual plans). Each request draws it down at the routed model's cost. There are no 5-hour or weekly windows. When the budget is used, requests stop (HTTP 402) until renewal or an upgrade, with no overage charges
+- **Models:** Claude Opus/Sonnet/Haiku 5.5, GPT-6 Astra/Luna, GPT-5.6 Sol, Gemini 3.1 Pro, plus open-weight GLM 5.3, Kimi K3, DeepSeek V4, Qwen 3.8 and MiniMax M3. The default `standardcompute` model routes each request to a model and buys the traffic from the cheapest serving provider. Up to five models can be pinned instead
+- **API:** One key for an OpenAI-compatible endpoint (`https://api.stdcmpt.com/v1`) and the Anthropic Messages API, so Claude Code, Codex CLI (Responses API), OpenCode, Cline, Hermes and Pi work as clients
+- **Compliance & data handling:** Keys, teams or companies can be restricted to provider endpoints in Europe or the US. This covers where inference runs, not end-to-end residency: requests still pass through the gateway and an upstream router
+- **Catch:** Requests to frontier models drain the budget fastest. Routing means you don't always get the exact model unless you pin it. There is no pay-per-token plan, and the trial is only $0.25 of compute
+- **What makes them interesting:** **A credit-limited bundle that is an API rather than a chat app.** Most Tier 3 products are consumer chat UIs. This one is built for coding agents that run unattended: one monthly price and a hard stop instead of a token bill
+- **Best for:** Developers and small teams running coding agents daily who want a fixed monthly cost across frontier and open models
+
 ### Merlin AI
 - **Pricing:** Starts $12/mo, $19/mo for full tier
 - **Form factor:** **Browser-extension-first** ("ChatGPT in every webpage" — Gmail, Google Docs, X, Notion)
